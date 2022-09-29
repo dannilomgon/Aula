@@ -1,14 +1,26 @@
-style
+body {
+    font-size: 12px; 
+    font-family: Arial;
+}
+ h1 {
+    font-size: 30px;
+ }
+
+
+
 form {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(66, 134, 223, 0.945);
     margin: 0 auto;
-    width: 500px;
+    width: 350px;
+    height: auto;
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
     text-align: center;
     }
 
-    ul{
+    ul {
         list-style: none;
         padding: 0;
         margin: 0;        
@@ -19,15 +31,14 @@ form {
     }
 
     label {
-        display: inline-block;
-        width: 120px;
+        width: 150px;
         text-align: right;
     }
     
     input,
     textarea {
-        font: 1em arial;
-        width: 200px;
+        font: 1em Times New Roman;
+        width: 100px;
         box-sizing: border-box;
         border: 1px solid #999;
 
@@ -42,3 +53,30 @@ form {
         vertical-align: top;
         height: 5em;
     }
+
+    .enviar  {}
+
+    .button{
+        margin-top: 10px;
+            border: none;
+            border-radius: 25px;
+            height: 30px;
+            padding: 0px 0px;
+            outline: none;
+            background-color: #201dd8;
+            color: #fff;
+            font-size: 12px;
+            box-shadow: 0 10px rgb(65, 63, 63);
+            cursor: pointer;
+        } 
+
+        .button:hover {
+            background-color: #252391;
+        }
+
+        .button:active {
+            background-color: #201dd8;
+            box-shadow: 0 4px rgb(27, 27, 27);
+            transform: translateY(4px);
+        }    
+    
